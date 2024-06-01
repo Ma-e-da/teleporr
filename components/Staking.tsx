@@ -86,7 +86,7 @@ export const Staking = () => {
             width: "100%",
           }}
         >
-          <h2 style={{ marginRight: "20px" }}>Claim NFT to Stake</h2>
+          <h2 style={{ marginRight: "20px" }}>Claim NFT</h2>
           <TransactionButton
             transaction={() =>
               claimTo({
@@ -107,7 +107,7 @@ export const Staking = () => {
               borderRadius: "10px",
             }}
           >
-            Claim NFT
+            Claim
           </TransactionButton>
         </div>
         <hr
@@ -122,7 +122,7 @@ export const Staking = () => {
             width: "100%",
           }}
         >
-          <h2>Owned NFTs</h2>
+          <h2>MY LIST</h2>
           <div
             style={{
               display: "flex",
@@ -152,7 +152,7 @@ export const Staking = () => {
           }}
         />
         <div style={{ width: "100%", margin: "20px 0" }}>
-          <h2>Staked NFTs</h2>
+          <h2>Staked</h2>
           <div
             style={{
               display: "flex",
