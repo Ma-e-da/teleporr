@@ -63,7 +63,7 @@ export const NFTCard = ({
           <div
             style={{
               minWidth: "300px",
-              backgroundColor: "#222",
+              backgroundColor: "#fff",
               padding: "20px",
               borderRadius: "10px",
               display: "flex",
@@ -90,7 +90,7 @@ export const NFTCard = ({
                 Close
               </button>
             </div>
-            <h3 style={{ margin: "10px 0" }}>You about to stake:</h3>
+            <h3 style={{ margin: "10px 0" }}>Stake</h3>
             <MediaRenderer
               client={client}
               src={nft.metadata.image}
@@ -113,7 +113,7 @@ export const NFTCard = ({
                 }}
                 onTransactionConfirmed={() => setIsApproved(true)}
               >
-                Approve
+                OK
               </TransactionButton>
             ) : (
               <TransactionButton

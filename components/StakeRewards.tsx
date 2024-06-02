@@ -63,13 +63,13 @@ export const StakeRewards = () => {
         }}
         style={{
           border: "none",
-          backgroundColor: "#333",
+          backgroundColor: "#33CC00",
           color: "#fff",
-          padding: "10px",
+          padding: "20px",
           borderRadius: "10px",
           cursor: "pointer",
           width: "100%",
-          fontSize: "12px",
+          fontSize: "20px",
         }}
       >
         Claim Rewards

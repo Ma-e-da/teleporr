@@ -69,7 +69,7 @@ export const Staking = () => {
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          backgroundColor: "#151515",
+          backgroundColor: "#ffffff",
           borderRadius: "8px",
           width: "500px",
           padding: "20px",
@@ -86,7 +86,7 @@ export const Staking = () => {
             width: "100%",
           }}
         >
-          <h2 style={{ marginRight: "20px" }}>Claim NFT</h2>
+          <h2 style={{ marginRight: "10px 10px" }}></h2>
           <TransactionButton
             transaction={() =>
               claimTo({
@@ -100,14 +100,17 @@ export const Staking = () => {
               getOwnedNFTs();
             }}
             style={{
-              fontSize: "12px",
-              backgroundColor: "#333",
+              border: "none",
+              backgroundColor: "#3EF62E",
               color: "#fff",
-              padding: "10px 20px",
+              padding: "20px",
               borderRadius: "10px",
+              cursor: "pointer",
+              width: "100%",
+              fontSize: "20px",
             }}
           >
-            Claim
+            Claim NFT
           </TransactionButton>
         </div>
         <hr
@@ -122,7 +125,7 @@ export const Staking = () => {
             width: "100%",
           }}
         >
-          <h2>MY LIST</h2>
+          <h2>Your List</h2>
           <div
             style={{
               display: "flex",
